@@ -2772,7 +2772,8 @@ input:-ms-input-placeholder {
   padding-bottom: 20px;
 }
 
-@media only screen and (max-device-width: 400px) and (orientation: portrait) {
+@media only screen and (max-device-width: 667px), only screen and (max-device-width: 768px)  
+  and (-webkit-min-device-pixel-ratio: 1) {
 
   video{
     display: none;
@@ -2780,6 +2781,7 @@ input:-ms-input-placeholder {
 
   .moble-poster{
     background-image: url('/assets/images/personal/DannyMobileBG1.jpg');
+    /*min-height: 420px;*/
     background-size: cover;
   }
 
@@ -2787,10 +2789,14 @@ input:-ms-input-placeholder {
     /*max-height: 200px;*/
   }
 
+  .fade-in .figure-overlay{
+    opacity: 1;
+  }
+
 }
-@media (min-width: 401px) {
+@media (min-width: 668px) {
   .moble-poster{
-    background-image: none;
+    /*background-image: none;*/
   }
 }
 
