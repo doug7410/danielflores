@@ -1,0 +1,25 @@
+[31-Jul-2015 00:16:49 UTC] PHP Fatal error:  Uncaught exception 'Mailgun\Connection\Exceptions\MissingRequiredParameters' with message 'The parameters passed to the API were invalid. Check your inputs!' in /home/dannyfloresmusic/public_html/vendor/mailgun/mailgun-php/src/Mailgun/Connection/RestClient.php:127
+Stack trace:
+#0 /home/dannyfloresmusic/public_html/vendor/mailgun/mailgun-php/src/Mailgun/Connection/RestClient.php(90): Mailgun\Connection\RestClient->responseHandler(Object(Guzzle\Http\Message\Response))
+#1 /home/dannyfloresmusic/public_html/vendor/mailgun/mailgun-php/src/Mailgun/Mailgun.php(80): Mailgun\Connection\RestClient->post('sandbox0bfd8a77...', Array, Array)
+#2 /home/dannyfloresmusic/public_html/vendor/mailgun/mailgun-php/src/Mailgun/Mailgun.php(36): Mailgun\Mailgun->post('sandbox0bfd8a77...', Array, Array)
+#3 /home/dannyfloresmusic/public_html/contact_mailer.php(28): Mailgun\Mailgun->sendMessage('sandbox0bfd8a77...', Array)
+#4 {main}
+  thrown in /home/dannyfloresmusic/public_html/vendor/mailgun/mailgun-php/src/Mailgun/Connection/RestClient.php on line 127
+[31-Jul-2015 00:17:11 UTC] PHP Fatal error:  Uncaught exception 'Mailgun\Connection\Exceptions\MissingRequiredParameters' with message 'The parameters passed to the API were invalid. Check your inputs!' in /home/dannyfloresmusic/public_html/vendor/mailgun/mailgun-php/src/Mailgun/Connection/RestClient.php:127
+Stack trace:
+#0 /home/dannyfloresmusic/public_html/vendor/mailgun/mailgun-php/src/Mailgun/Connection/RestClient.php(90): Mailgun\Connection\RestClient->responseHandler(Object(Guzzle\Http\Message\Response))
+#1 /home/dannyfloresmusic/public_html/vendor/mailgun/mailgun-php/src/Mailgun/Mailgun.php(80): Mailgun\Connection\RestClient->post('sandbox0bfd8a77...', Array, Array)
+#2 /home/dannyfloresmusic/public_html/vendor/mailgun/mailgun-php/src/Mailgun/Mailgun.php(36): Mailgun\Mailgun->post('sandbox0bfd8a77...', Array, Array)
+#3 /home/dannyfloresmusic/public_html/contact_mailer.php(28): Mailgun\Mailgun->sendMessage('sandbox0bfd8a77...', Array)
+#4 {main}
+  thrown in /home/dannyfloresmusic/public_html/vendor/mailgun/mailgun-php/src/Mailgun/Connection/RestClient.php on line 127
+[31-Jul-2015 00:57:54 UTC] PHP Fatal error:  Uncaught exception 'Mailgun\Connection\Exceptions\MissingRequiredParameters' with message 'The parameters passed to the API were invalid. Check your inputs!' in /home/dannyfloresmusic/public_html/vendor/mailgun/mailgun-php/src/Mailgun/Connection/RestClient.php:127
+Stack trace:
+#0 /home/dannyfloresmusic/public_html/vendor/mailgun/mailgun-php/src/Mailgun/Connection/RestClient.php(90): Mailgun\Connection\RestClient->responseHandler(Object(Guzzle\Http\Message\Response))
+#1 /home/dannyfloresmusic/public_html/vendor/mailgun/mailgun-php/src/Mailgun/Mailgun.php(80): Mailgun\Connection\RestClient->post('sandbox0bfd8a77...', Array, Array)
+#2 /home/dannyfloresmusic/public_html/vendor/mailgun/mailgun-php/src/Mailgun/Mailgun.php(36): Mailgun\Mailgun->post('sandbox0bfd8a77...', Array, Array)
+#3 /home/dannyfloresmusic/public_html/contact_mailer.php(28): Mailgun\Mailgun->sendMessage('sandbox0bfd8a77...', Array)
+#4 {main}
+  thrown in /home/dannyfloresmusic/public_html/vendor/mailgun/mailgun-php/src/Mailgun/Connection/RestClient.php on line 127
+[31-Jul-2015 23:40:30 UTC] PHP Fatal error:  Class 'Dotenv\Dotenv' not found in /home/dannyfloresmusic/public_html/contact_mailer.php on line 9

@@ -22794,7 +22794,11 @@ jQuery(document).ready(function( $ ) {
     // ======================
 
     // Adjust full height sections on IOS
-    $('[class*="oxy-agent-"] .section-fullheight').removeClass('section-fullheight').css('min-height', $(window).height()).find('.container, .container-fullwidth, .container > .row, .container-fullwidth > .row ').css('min-height', $(window).height()).find('.row, [class*="col-md"]').css('position', 'static');
+    $('[class*="oxy-agent-"] .section-fullheight')
+    .removeClass('section-fullheight')
+    .css('min-height', $(window).height())
+    .find('.container, .container-fullwidth, .container > .row, .container-fullwidth > .row ')
+    .css('min-height', $(window).height()).find('.row, [class*="col-md"]').css('position', 'static');
 
     // fix placeholders for IE 8 & 9
     $('html.ie9').find('input, textarea').placeholder();
